@@ -16,7 +16,6 @@ body {
 /* header part design with section */
 .primary {
     background: rgba(229, 84, 115, 0.10);
-    
       
 }
  
@@ -68,6 +67,7 @@ body {
 
 
 
+
 /* live tree part and extra part*/
 
 .live-tree {
@@ -76,6 +76,7 @@ body {
     justify-content: center;
     background: rgba(229, 84, 115, 0.10);
     border-radius: 5px;
+    
 }
 
 .tree-title {
@@ -89,7 +90,7 @@ body {
     line-height: normal;
     padding-bottom: 30px; 
     margin-top: 60px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .tree-para {
     
@@ -113,42 +114,72 @@ body {
 }
 
 
-/* main section featured part */
-.featured {
 
-    padding: 50px 500px;
-    border-radius: 10px;
-    background-color: #FFF;;
-    margin: 100px 0px;
-   
+
+/* feature part  */
+
+ 
+.featured-section{
+    margin-top: 60px;
 }
 
-.title-section {
- 
+.feature-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.feature-heading h2{
+    color: #272727;
     text-align: center;
+    font-family: Lato;
     font-size: 40px;
     font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    }
+    
+}
 
-.des-section {
-
-    /* color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; */
-
+.feature-heading> div{
+    margin-top: 12px;
+    display: flex;
     flex-direction: column;
-    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-heading>div>p{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    font-family: Lato;
+}
+
+.image-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    column-gap: 20px;   
+}
+
+.image-container>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.image-container>div>img{
+    width: 220px;
+    height: 300px;
+}
+
+.image-container>div>a{
+    margin-top: 15px;
+}
+
+.free-section{
+    margin-top: 60px;
 }
 
 
@@ -158,7 +189,7 @@ body {
 .featured-image {
 
     display: flex;
-    margin: 100px 100px;
+    margin: 0px 100px;
     align-items: center;
     width: 200px;
     height: 300px;
@@ -166,52 +197,31 @@ body {
 }
 
 .f1 {
-
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 110px 78px 0px 76px;
-    margin-right: 10px;
-     
-   
-    }
-
-
-.f1 .img1 {
-    width: 310px;
-    height: 428px;
-    flex-shrink: 0;
-    
-
+    padding: 50px 40px;
 }
+
+
 
 .f2 {
 
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 117px 47px 51px 47px;
-    margin-right: 10px;
+    padding: 50px 40px;
 }
 
-.f2 .img2 {
-
-    width: 370px;
-    height: 370px;
-    flex-shrink: 0;
-}
+ 
 
 .f3 {
 
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 67PX 75PX 0PX 75PX;
+    padding: 50px 40px;
     
 }
 
-.f3 .img3 {
-    width: 314px;
-    height: 471px;
-    flex-shrink: 0;
-}
+ 
 
 /* ancor name  */
 
@@ -219,7 +229,6 @@ body {
 
     display: flex;
     justify-content: space-around;
-    margin: 100px 50px;
 }
 
 
@@ -479,7 +488,3 @@ body {
     font-weight: 400;
     line-height: normal;
 }
- 
-
-
-
